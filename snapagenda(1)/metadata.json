@@ -1,0 +1,7 @@
+{
+  "name": "SnapAgenda",
+  "description": "A minimal agenda app that turns screenshots and posters into structured calendar events using AI.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

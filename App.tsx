@@ -84,7 +84,7 @@ const App: React.FC = () => {
           </button>
         ) : (
           <div className="flex items-center gap-2">
-            <img src="/a.png?v=2" alt="Logo" className="w-8 h-8 rounded-lg object-cover" />
+            <img src="/a.png" alt="Logo" className="w-8 h-8 rounded-lg object-cover" />
             <h1 className="text-xl font-bold text-gray-900 tracking-tight">SnapAgenda</h1>
           </div>
         )}

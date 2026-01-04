@@ -84,9 +84,7 @@ const App: React.FC = () => {
           </button>
         ) : (
           <div className="flex items-center gap-2">
-            <div className="bg-indigo-600 p-1.5 rounded-lg">
-              <Sparkles size={18} className="text-white" />
-            </div>
+            <img src="logo.png" alt="Logo" className="w-8 h-8 rounded-lg object-cover" />
             <h1 className="text-xl font-bold text-gray-900 tracking-tight">SnapAgenda</h1>
           </div>
         )}
@@ -94,7 +92,7 @@ const App: React.FC = () => {
         {view === 'list' && (
           <button 
             onClick={() => setView('upload')}
-            className="bg-indigo-600 hover:bg-indigo-700 text-white p-2 rounded-full transition-all active:scale-95 shadow-lg shadow-indigo-100"
+            className="bg-[#312e45] hover:bg-[#1e1c2d] text-white p-2 rounded-full transition-all active:scale-95 shadow-lg shadow-indigo-100"
           >
             <Plus size={20} />
           </button>
@@ -107,7 +105,7 @@ const App: React.FC = () => {
           <div className="fixed inset-0 z-50 bg-white/90 backdrop-blur-sm flex flex-col items-center justify-center p-8 text-center">
             <Loader2 className="animate-spin text-indigo-600 mb-4" size={48} />
             <h2 className="text-xl font-semibold text-gray-900 mb-2">Analyzing your image...</h2>
-            <p className="text-gray-500">Gemini is extracting dates, times, and location details for you.</p>
+            <p className="text-[#312e45]">Gemini is extracting dates, times, and location details for you.</p>
           </div>
         )}
 
